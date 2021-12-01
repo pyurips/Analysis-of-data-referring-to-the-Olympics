@@ -2,6 +2,7 @@
 import matplotlib.pyplot as plt
 import time as t
 import os
+from boxplot import boxplotf
 ####################################
 
 # Variáveis #
@@ -33,6 +34,8 @@ def menu():
         print("Programa finalizado.")
         t.sleep(1)
         return "q"
+    if (option == 'x'):
+      boxplotf()
 
 
 ###################################
