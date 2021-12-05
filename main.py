@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import time as t
 import os
 from boxplot import boxplotf
+from linhas import linhasf
 ####################################
 
 # Variáveis #
@@ -36,6 +37,8 @@ def menu():
         return "q"
     if (option == 'x'):
       boxplotf()
+    if (option == 'l'):
+      linhasf()
 
 
 ###################################
