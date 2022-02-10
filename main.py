@@ -1,9 +1,10 @@
 # Importação de módulos ou pacotes #
-import matplotlib.pyplot as plt
 import time as t
 import os
 from boxplot import boxplotf
 from linhas import linhasf
+from resptextual import resptextualf
+from barras import barrasf
 ####################################
 
 # Variáveis #
@@ -39,6 +40,11 @@ def menu():
       boxplotf()
     if (option == 'l'):
       linhasf()
+    if (option == 't'):
+      resptextualf()
+    if (option == 'b'):
+      barrasf()
+      
 
 
 ###################################
